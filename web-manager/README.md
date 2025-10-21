@@ -45,7 +45,7 @@ L'application est construite avec une stack moderne :
 - **Frontend** : React 19 + TypeScript + Tailwind CSS + shadcn/ui
 - **Backend** : Node.js + Express + tRPC 11
 - **Base de données** : MySQL/TiDB (via Drizzle ORM)
-- **Authentification** : Manus OAuth + JWT
+- **Authentification** : JWT avec support OAuth
 - **Communication** : tRPC pour une API type-safe end-to-end
 
 ## Prérequis
@@ -96,9 +96,9 @@ Les variables d'environnement suivantes doivent être configurées :
 
 - `DATABASE_URL` : URL de connexion à la base de données MySQL
 - `JWT_SECRET` : Secret pour signer les tokens JWT
-- `VITE_APP_ID` : ID de l'application Manus OAuth
-- `OAUTH_SERVER_URL` : URL du serveur OAuth Manus
-- `VITE_OAUTH_PORTAL_URL` : URL du portail de connexion Manus
+- `VITE_APP_ID` : ID de l'application OAuth
+- `OAUTH_SERVER_URL` : URL du serveur OAuth
+- `VITE_OAUTH_PORTAL_URL` : URL du portail de connexion OAuth
 - `VITE_APP_TITLE` : Titre de l'application (par défaut : "ARK Server Web Manager")
 - `VITE_APP_LOGO` : URL du logo de l'application
 

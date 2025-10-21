@@ -146,11 +146,11 @@ DATABASE_URL=mysql://arkweb:votre_mot_de_passe_securise@localhost:3306/ark_web_m
 # Secret JWT (générez une chaîne aléatoire sécurisée)
 JWT_SECRET=votre_secret_jwt_aleatoire_tres_long_et_securise
 
-# Configuration OAuth (pour l'authentification Manus)
-# Si vous n'utilisez pas Manus OAuth, vous pouvez laisser ces valeurs par défaut
+# Configuration OAuth (optionnel)
+# Configurez ces valeurs si vous souhaitez utiliser l'authentification OAuth
 VITE_APP_ID=ark-web-manager
-OAUTH_SERVER_URL=https://api.manus.im
-VITE_OAUTH_PORTAL_URL=https://portal.manus.im
+OAUTH_SERVER_URL=
+VITE_OAUTH_PORTAL_URL=
 
 # Informations du propriétaire (optionnel)
 OWNER_OPEN_ID=
@@ -160,8 +160,8 @@ OWNER_NAME=Admin
 VITE_APP_TITLE=ARK Server Web Manager
 VITE_APP_LOGO=/logo.png
 
-# APIs intégrées (optionnel)
-BUILT_IN_FORGE_API_URL=https://api.manus.im
+# APIs externes (optionnel)
+BUILT_IN_FORGE_API_URL=
 BUILT_IN_FORGE_API_KEY=
 
 # Analytics (optionnel)
@@ -242,7 +242,7 @@ http://adresse_ip_du_serveur:3000
 
 ### Première connexion
 
-Lors de la première connexion, vous devrez créer un compte administrateur. Le système d'authentification est basé sur Manus OAuth par défaut.
+Lors de la première connexion, vous devrez créer un compte administrateur.
 
 ## Configuration en production
 

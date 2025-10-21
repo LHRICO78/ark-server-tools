@@ -60,19 +60,19 @@ DATABASE_URL=mysql://user:password@localhost:3306/ark_web_manager
 # JWT Secret (change this to a random string)
 JWT_SECRET=change-this-to-a-random-secret-string
 
-# OAuth configuration (for Manus OAuth)
-VITE_APP_ID=your-app-id
-OAUTH_SERVER_URL=https://api.manus.im
-VITE_OAUTH_PORTAL_URL=https://portal.manus.im
+# OAuth configuration (optional)
+VITE_APP_ID=ark-web-manager
+OAUTH_SERVER_URL=
+VITE_OAUTH_PORTAL_URL=
 OWNER_OPEN_ID=
-OWNER_NAME=
+OWNER_NAME=Admin
 
 # App branding
 VITE_APP_TITLE=ARK Server Web Manager
 VITE_APP_LOGO=/logo.png
 
-# Built-in APIs (optional)
-BUILT_IN_FORGE_API_URL=https://api.manus.im
+# External APIs (optional)
+BUILT_IN_FORGE_API_URL=
 BUILT_IN_FORGE_API_KEY=
 
 # Analytics (optional)
@@ -86,7 +86,7 @@ EOF
     echo "  1. Set up a MySQL/TiDB database"
     echo "  2. Update DATABASE_URL with your database credentials"
     echo "  3. Change JWT_SECRET to a random string"
-    echo "  4. Configure OAuth settings if using Manus OAuth"
+    echo "  4. Configure OAuth settings if using OAuth authentication"
     echo ""
     read -p "Press Enter to continue after configuring .env..."
 fi

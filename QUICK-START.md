@@ -50,8 +50,8 @@ cat > .env << 'EOF'
 DATABASE_URL=mysql://arkweb:ChangeMe123!@localhost:3306/ark_web_manager
 JWT_SECRET=$(openssl rand -base64 64)
 VITE_APP_ID=ark-web-manager
-OAUTH_SERVER_URL=https://api.manus.im
-VITE_OAUTH_PORTAL_URL=https://portal.manus.im
+OAUTH_SERVER_URL=
+VITE_OAUTH_PORTAL_URL=
 OWNER_NAME=Admin
 VITE_APP_TITLE=ARK Server Web Manager
 VITE_APP_LOGO=/logo.png
