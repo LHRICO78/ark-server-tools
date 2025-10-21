@@ -2,6 +2,14 @@
 
 Ce fork du projet [arkmanager/ark-server-tools](https://github.com/arkmanager/ark-server-tools) ajoute une **interface web moderne** pour gérer les serveurs ARK: Survival Evolved sans avoir à utiliser les commandes en ligne de commande.
 
+## 🚀 Démarrage rapide
+
+**Vous voulez installer l'interface web rapidement ?**
+
+👉 **[Guide de démarrage rapide (5 minutes)](QUICK-START.md)**
+
+👉 **[Guide d'installation complet](INSTALLATION-WEB-INTERFACE.md)**
+
 ## Nouveautés de ce fork
 
 ### Interface Web Complète
